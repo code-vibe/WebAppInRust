@@ -6,3 +6,7 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1.43.0", features = ["rt", "rt-multi-thread", "macros"] }
 axum = { version = "0.8.1", features = [] }
+
+[dev-dependencies]
+anyhow = "1.0.95"
+httpc-test = "0.1.10"
